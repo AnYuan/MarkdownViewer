@@ -1,6 +1,6 @@
 # MarkdownViewer
 
-A lightweight macOS markdown viewer built with SwiftUI and [MarkdownKit](https://github.com/nicklama/MarkdownKit).
+A lightweight macOS markdown viewer built with SwiftUI and [MarkdownKit](https://github.com/AnYuan/MarkdownKit).
 
 ## Features
 
@@ -23,4 +23,4 @@ swift run MarkdownViewer
 
 ## Dependencies
 
-- [MarkdownKit](https://github.com/nicklama/MarkdownKit) — Native markdown rendering engine for Apple platforms
+- [MarkdownKit](https://github.com/AnYuan/MarkdownKit) — Native markdown rendering engine for Apple platforms

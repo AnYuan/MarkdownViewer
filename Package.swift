@@ -8,7 +8,7 @@ let package = Package(
         .macOS("26.0")
     ],
     dependencies: [
-        .package(path: "../MarkdownKit")
+        .package(url: "https://github.com/AnYuan/MarkdownKit.git", branch: "main")
     ],
     targets: [
         .executableTarget(
