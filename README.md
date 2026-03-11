@@ -21,6 +21,22 @@ swift build
 swift run MarkdownViewer
 ```
 
+## Install As macOS App
+
+Build a release `.app` bundle and install it to `~/Applications`:
+
+```bash
+./scripts/install-app.sh
+```
+
+The installer also regenerates the app icon before packaging.
+
+Install to a different directory:
+
+```bash
+./scripts/install-app.sh /Applications
+```
+
 ## Dependencies
 
 - [MarkdownKit](https://github.com/AnYuan/MarkdownKit) — Native markdown rendering engine for Apple platforms

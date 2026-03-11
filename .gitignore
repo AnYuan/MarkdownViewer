@@ -19,3 +19,8 @@ Package.resolved
 .DS_Store
 *.swp
 *~
+
+# Generated app icons
+Packaging/AppIcon.icns
+Packaging/AppIcon-preview.png
+Packaging/AppIcon.iconset/
