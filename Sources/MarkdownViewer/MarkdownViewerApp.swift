@@ -22,6 +22,8 @@ struct MarkdownViewerApp: App {
             CommandGroup(replacing: .newItem) {
                 Button("Open...") { model.openFile() }
                     .keyboardShortcut("o")
+                Button("Open Folder...") { model.openFolder() }
+                    .keyboardShortcut("o", modifiers: [.command, .shift])
             }
         }
     }
